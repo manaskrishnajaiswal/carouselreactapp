@@ -45,7 +45,7 @@ export default function Home() {
                 src={`/images/${index + 1}.png`}
                 alt="First slide"
                 height={500}
-                width={1200}
+                width={1300}
               />
               <Carousel.Caption>
                 <h3 style={{ color: "red" }}>
