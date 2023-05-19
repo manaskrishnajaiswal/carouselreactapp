@@ -1,7 +1,10 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # images folder
+hqImagesArchive/
 imagesArchive/
+public/images/
+images
 # dependencies
 /node_modules
 /.pnp

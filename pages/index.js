@@ -41,12 +41,15 @@ export default function Home() {
         >
           {Array.from({ length: 50 }).map((_, index) => (
             <Carousel.Item>
-              <Image
-                src={`/images/${index + 1}.png`}
-                alt="First slide"
-                height={500}
-                width={1300}
-              />
+              <div className="image-container">
+                <Image
+                  src={`/images/${index + 1}.png`}
+                  alt="First slide"
+                  height={500}
+                  width={1300}
+                  className="carousel-image"
+                />
+              </div>
               <Carousel.Caption>
                 <h3 style={{ color: "red" }}>
                   <span style={{ color: "green" }}>Slide No.</span> {index + 1}
